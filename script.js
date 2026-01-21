@@ -6,6 +6,7 @@ function checkAnswer(button, correct) {
     if (correct) {
         result.textContent = "✅ Correct!";
         result.className = "result green";
+        
     } else {
         result.textContent = "❌ Incorrect!";
         result.className = "result red";
